@@ -1,21 +1,34 @@
-<head padx="5", pady="5">Create an account!!!</head>
+<head>Create an account!!!!</head>
 <body>
+  <style>
+    .stylediv {
+      padding: 25px;
+    }
+  </style>
   <form>
+    <div class="stylediv">
     <label for="uname">Username (20 characters limit):</label><br>
     <input type="text" id="uname" name="Uname" maxlength="20"><br>
+    </div>
     
+    <div class="stylediv">
     <label for="pword">Password:</label><br>
     <input type="password" id="pword" name="password"><br>
+    </div>
     
+    <div class="stylediv">
     <label for="mail">Email:</label><br>
     <input type="email" id="mail" name="mail" maxlength="80"><br>
-
+    </div>
+    
+    <div class="stylediv">
     <label for="grade">Grade:</label><br>
     <input type="number" id="grade" name="grade" maxlength="2"><br>
-
+    </div>
+    
+    <div class="stylediv">
     <input type="submit" value="Register">
-    
     <input type="reset" value="Reset">
-    
+    </div>
   </form>
 </body>
